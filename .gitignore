@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# NeoForge / ModDev
+run/
+logs/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle wrapper (keep jar/wrapper files, ignore local props)
+!gradle/wrapper/gradle-wrapper.jar
+local.properties

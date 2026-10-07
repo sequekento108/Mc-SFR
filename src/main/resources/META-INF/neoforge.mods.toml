@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "GPL-3.0-or-later"
+
+[[mods]]
+modId = "freedomindex"
+version = "1.0.0"
+displayName = "Stallman Freedom Index"
+description = '''
+Scans your installed mods and tells you which ones respect your freedom.
+Yes, we know Minecraft itself is proprietary.
+'''
+
+[[dependencies.freedomindex]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.freedomindex]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "CLIENT"
